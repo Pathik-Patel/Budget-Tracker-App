@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUDGET TRACKER</title>
+    <style>
+    body{
+        background-image: url("images/backgrounds.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .container{
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    button{
+        width: 100px;
+        height: 35px;
+        background-color: rgb(41, 41, 255);
+        color: white;
+        border-radius: 5px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    @media (max-width:600px){
+        p{
+            font-size: 13px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <h1>How This Works</h1>
+        <p>
+            1. This simply keeps track of income and expense.<br><br>
+            2. You can add your income and expense here.<br><br>
+            3. When you will add your income, money will be added to your budget.<br><br>
+            4. When you will add your expense, money will be diducted from your budget.<br><br>
+            5. it keeps one list for incomes and expenses.<br><br>
+            6. you can delete any income or expense from that list and it will
+            automatically updates your budget.<br><br>
+            7. It will also store total income and total expenses.<br><br>
+            
+        </p>
+
+        <button onclick="start()">Let's Start</button>
+    </div>
+    <script>
+        function start(){
+            window.open("main.html","_self");
+        }
+    </script>
+</body>
+</html>

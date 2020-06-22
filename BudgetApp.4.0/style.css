@@ -1,0 +1,515 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.61)), url("images/half-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
+
+.first-part, .second-part{
+
+width: 50%;
+height: 100%;
+
+}
+
+
+.first-main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.first-main div{
+    margin-top: 5%;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.first-text, .first-total-amount{
+    width: 100%;
+} 
+
+#budget-heading{
+    height: 100%;
+    padding-top: 5%;
+    margin: 0px;
+    line-height:100%;
+    font-size: 40px;
+}
+
+#total{
+    font-size: 60px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.first-income, .first-expenses{
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid white;
+    color: white;
+    width: 50%;
+    height: 10%;
+    justify-content: space-around;
+}
+
+
+.first-income{
+    background-color: rgb(48, 138, 141);
+}
+
+.first-expenses{
+background-color: rgb(226, 76, 57);
+}
+
+
+.show-1{
+    font-size: 15px !important;
+    text-transform: uppercase;
+    width: 30%;
+    height: 100%;
+    margin-top: 13px;
+}
+
+.show-2{
+    font-size: 15px !important;
+    width: 30%;
+    text-align: right;
+    height: 100%;
+    margin-top: 13px;
+}
+.show-3{
+    font-size: 15px !important;
+    width: 20%;
+    height: 100%;
+    margin-top: 13px;
+}
+
+
+
+
+/*                              Second Row                          */
+
+
+
+.second-div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.enter-new-data{
+    width: 100%;
+}
+
+.second-divs{
+    margin: 12px;
+    width: 40%;
+}
+
+.full{
+    width: 51%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.5%;
+}
+
+
+.second-amount-type, .second-selection{
+    height: 90%;
+    margin-left: 0px;
+    margin-right: 5%;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+}
+
+.second-amount-type{
+width: 47%;
+}
+
+.second-selection{
+width: 100%;
+}
+
+.second-enter-amount-main, .second-enter-amount{
+    width: 40%;
+    height: 80%;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    margin-right: 0px;
+    
+}
+
+.second-enter-amount{
+    height: 100%;
+    width: 100%;
+}
+
+
+.second-enter-subject {
+    width: 65%;
+    height: 65%;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 7%;
+}
+
+#input-subject{
+    width: 100%;
+    height: 100%;
+}
+
+.second-done{
+    height: 40px;
+    border: none;
+    text-align: center;
+    margin-right: 0px;
+    border-radius: 5px;
+    background-color: rgb(35, 67, 248);
+    color: white;
+    width: 20%;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#submit{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+/*    third div   */
+
+
+
+
+.third-div{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top:5%;
+    justify-content: center;
+}
+
+.third-div h1{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+
+.third-show-income, .third-show-expenses{
+    width: 50%;
+    text-align: center;
+}
+
+.first-income-third, .first-expenses-third{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 10%;
+    
+}
+
+.third-div div{
+    margin-top: 20px;
+}
+
+.first-income-third{
+    background-color: rgb(48, 138, 141);
+}
+
+.first-expenses-third{
+background-color: rgb(226, 76, 57);
+}
+
+
+.show-1{
+    font-size: 15px !important;
+    text-transform: uppercase;
+    width: 40%;
+    height: 100%;
+    margin-top: 13px;
+}
+
+.show-2{
+    font-size: 15px !important;
+    width: 40%;
+    text-align: right;
+    height: 100%;
+    margin-top: 13px;
+}
+.show-3{
+    font-size: 15px !important;
+    width: 20%;
+    height: 100%;
+    margin-top: 13px;
+}
+.delete-button{
+    
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 38, 38);
+    color: white;
+    margin: 10px;
+    padding-left: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+@media( max-width : 1200px ){
+
+#entry-heading{
+    font-size: 30px;
+}
+
+#budget-heading{
+    font-size: 30px;
+}
+
+}
+
+@media( max-width: 1100px){
+    .second-selection{
+        font-size: 15px;
+    }
+
+    .second-enter-amount{
+        font-size: 15px;
+    }
+
+    .second-enter-subject{
+        font-size: 15px;
+    }
+
+    #submit{
+        font-size: 12px;
+    }
+
+    .show-1{
+        font-size: 10px !important;
+        
+    }
+    
+    .show-2{
+        font-size: 10px !important;
+        
+    }
+    .show-3{
+        font-size: 10px !important;
+        
+    }
+
+    body{
+        background-image: linear-gradient(to right,rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.61)), url("images/3.jpg");
+    
+    }
+
+}
+
+@media( max-width : 970px ){
+
+    #entry-heading{
+        font-size: 20px;
+    }
+    
+    #budget-heading{
+        font-size: 20px;
+    }
+
+    .third-div h1{
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width : 750px){
+
+    .first-part{
+        width: 100%;
+        height: 50%;
+    }
+    .second-part{
+        width: 100%;
+        height: 50%;
+    }
+
+    .first-main div{
+        margin-top: 1%;
+    }
+
+    #entry-heading{
+        font-size: 30px;
+    }
+    
+    #budget-heading{
+        font-size: 30px;
+    }
+
+    body{
+        background-image: linear-gradient(to right,rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.61)), url("images/2.jpg");
+    
+    }
+
+}
+
+@media (max-width : 500px){
+
+    .first-part{
+        width: 100%;
+        height: 50%;
+    }
+    .second-part{
+        width: 100%;
+        height: 50%;
+    }
+
+    .first-main div{
+        margin-top: 1%;
+    }
+
+    #entry-heading{
+        font-size: 30px;
+    }
+    
+    #budget-heading{
+        font-size: 30px;
+    }
+
+    .full{
+        width: 75%;
+        margin-top: 1.5%;
+    }
+
+    .first-income, .first-expenses{
+        
+        width: 75%;
+        height: 10%;
+    }
+
+}
+
+
+@media (max-width : 500px){
+
+    
+    #entry-heading{
+        font-size: 25px;
+    }
+    
+    #budget-heading{
+        font-size: 25px;
+    }
+
+    body{
+        background-image: linear-gradient(to right,rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.61)), url("images/1.jpg");
+    
+    }
+
+    
+
+}
+
+
+@media (max-height:580px){
+
+    #total{
+        font-size: 35px;
+    }
+
+    #entry-heading{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .second-enter-subject{
+        height: 55%;
+    }
+
+    .second-done{
+        height: 30px;
+    }
+
+    .second-enter-amount{
+        height: 30px;
+    }
+        
+    .second-selection{
+    height: 30px;
+    }
+
+    .third-div{
+        margin-top: 0px;
+    }
+}
+
+@media (max-height: 500px){
+
+    #entry-heading{
+        font-size: 20px;
+    }
+    
+    #budget-heading{
+        font-size: 20px;
+    }
+
+    #total{
+        font-size: 25px;
+    }
+
+    .second-enter-subject{
+        height: 45%;
+    }
+
+    .second-done{
+        height: 25px;
+    }
+
+    .second-enter-amount{
+        height: 25px;
+    }
+        
+    .second-selection{
+    height: 25px;
+    }
+
+    .third-div{
+        margin-top: 0px;
+    }
+
+    .third-show-income, .third-show-expenses{
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+}

@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUDGET TRACKER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="first-part">
+            
+        <div class="first-div">
+            
+            <div class="first-main">
+                <div class="first-text">
+                    <h1 id="budget-heading">Available Budget</h1>
+                </div>
+                <div class="first-total-amount">
+                    <h1 id="total" >0</h1>
+                </div>
+                <div class="first-income">
+                    <h1 class="show-1">income</h1>
+                    <h1 class="show-2" id="income">0</h1>
+                    <h1 class="show-3"></h1>
+                </div>
+                <div class="first-expenses">
+                    <h1 class="show-1">Expenses</h1>
+                    <h1 class="show-2" id="expenses">0</h1>
+                    <h1 class="show-3"></h1>
+                </div>
+            
+            </div>
+
+        </div>
+        
+        <div class="second-div">
+            
+            <div class="enter-new-data">
+                <h1 id="entry-heading">Enter new entries :</h1>
+            </div>
+            <div  class="second-second-div full">
+            <div class="second-amount-type second-divs">
+                <select id="selection" class="second-selection">
+                    <option value="income">income</option>
+                    <option value="expenses">expenses</option>
+                </select>
+            </div>
+            
+            <div class="second-enter-amount-main second-divs">
+                <input id="input-value" class="second-enter-amount" type="number" placeholder="Value">
+            </div>
+        </div>
+        <div class="second-third-div full">    
+        <div class="second-enter-subject second-divs">
+                <input id="input-subject" class="second-enter-subject" type="text" placeholder="Add description">
+            </div>
+            <div class="second-done second-divs">
+                <button class="second-done" id="submit">Done</button>
+            </div>
+        </div>
+    </div>
+        
+    </div>
+    <div class="second-part">
+        <div class="third-div">
+            
+            <div class="third-show-income">
+                <div class="third-income-heading">
+                    <h1>INCOME</h1>
+                </div>
+                <div id="third-income-list"></div>
+            </div>
+            <div class="third-show-expenses">
+                <div class="third-expenses-heading">
+                    <h1>EXPENSES</h1>
+                </div>
+                <div id="third-expenses-list"></div>
+            </div>
+    </div>
+    </div>
+        
+
+    </div>
+    <Script src="home.js"></Script>
+</body>
+</html>
